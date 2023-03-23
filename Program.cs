@@ -1,4 +1,4 @@
-﻿using Project;
+﻿using ChallengeApp;
 using System.Globalization;
 
 Console.Write("podaj ilość użytkowników: ");

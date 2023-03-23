@@ -1,4 +1,4 @@
-﻿namespace Project;
+﻿namespace ChallengeApp;
     internal class Employee
     {
         private List<int> score = new List<int>();
