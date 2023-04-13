@@ -18,7 +18,7 @@ for (int i = 0; i < number; i++)
     Console.Write("Wiek w latach: ");
     var age = int.Parse(Console.ReadLine());
     userList.Add(new Employee(i, name, surname, age));
-    Console.Write("Wprowadź kolejno " + notes + " ocen/y pracownika, wartości całkowite w skali od 1 do 10: ");
+    Console.Write("Wprowadź kolejno " + notes + " ocen/y pracownika, wartości całkowite w skali od -10 do 10: ");
     for (int j = 0; j < notes; j++)
     {
         userList[i].AddScore(int.Parse(Console.ReadLine()));
