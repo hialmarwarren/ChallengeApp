@@ -1,5 +1,4 @@
 ﻿using ChallengeApp;
-using System.Globalization;
 
 Console.Write("podaj ilość użytkowników: ");
 var number = int.Parse(Console.ReadLine());
